@@ -1,0 +1,18 @@
+class DoWhile 
+{
+	public static void main(String[] args) 
+	{
+		int n = 10;
+		int sum = 0;
+		do
+		{
+			while(n>0){
+				sum += n%10;
+				n /= 10;
+			}
+			n = sum;
+		}
+		while (n>9);
+		System.out.println(n);
+	}
+}

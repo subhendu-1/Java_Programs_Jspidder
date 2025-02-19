@@ -1,0 +1,17 @@
+
+
+//using address immideatly rether then store balue in varialbe
+
+class D
+{
+	int i;
+}
+class  Test5
+{
+	public static void main(String[] args) 
+	{
+		//new D().i;
+		//System.out.println(D.i);  // we not geting the reference
+		System.out.println(new D().i);
+	}
+}

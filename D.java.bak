@@ -1,0 +1,7 @@
+class D 
+{
+	public static void m3() 
+	{
+		System.out.println("M3in Class D");
+	}
+}

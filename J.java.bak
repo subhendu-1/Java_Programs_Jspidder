@@ -1,0 +1,32 @@
+class I 
+{
+	static int a = 10;
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+
+
+
+class J
+{
+	public static void main(String[] args){
+		System.out.println(I.a);
+		I.a = 25;
+		System.out.println(I.a);
+		I.a = 6+3;
+		System.out.println(I.a);
+	}
+}
+
+class Z
+{
+	public static void main(String[] args){
+		System.out.println(I.a);
+		I.a = 30;
+		System.out.println(I.a);
+		I.a = 6+4;
+		System.out.println(I.a);
+	}
+}
